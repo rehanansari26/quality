@@ -3,6 +3,6 @@
 
 frappe.ui.form.on('Test Quality Final', {
 	refresh: function(frm) {
-		frappe.msgprint("Yes")
+		frappe.msgprint("Hi")
 	}
 });
