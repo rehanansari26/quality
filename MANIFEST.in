@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include quality_control *.css
+recursive-include quality_control *.csv
+recursive-include quality_control *.html
+recursive-include quality_control *.ico
+recursive-include quality_control *.js
+recursive-include quality_control *.json
+recursive-include quality_control *.md
+recursive-include quality_control *.png
+recursive-include quality_control *.py
+recursive-include quality_control *.svg
+recursive-include quality_control *.txt
+recursive-exclude quality_control *.pyc
